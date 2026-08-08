@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>STEKO — Reset All Data</title>
+  <style>
+    :root {
+      --bg: #F0F2F5;
+      --card: #FFFFFF;
+      --text: #0D0F13;
+      --text-secondary: #5C6472;
+      --text-faint: #9AA1AE;
+      --accent: #2B5BE3;
+      --border: #E5E8EE;
+      --radius: 14px;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, "Helvetica Neue", Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      padding: 24px 16px;
+      -webkit-font-smoothing: antialiased;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: var(--card);
+      border-radius: var(--radius);
+      padding: 36px 28px 48px;
+      border: 1px solid var(--border);
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 36px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--border);
+    }
+    .wordmark {
+      font-size: 28px;
+      font-weight: 800;
+      letter-spacing: 6px;
+      color: var(--text);
+    }
+    .subtitle {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--accent);
+      margin-top: 6px;
+      letter-spacing: 0.5px;
+    }
+    .last-updated {
+      font-size: 13px;
+      color: var(--text-faint);
+      margin-top: 10px;
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--accent);
+      margin-top: 32px;
+      margin-bottom: 10px;
+      letter-spacing: -0.2px;
+    }
+    h2:first-of-type { margin-top: 0; }
+    p {
+      margin-bottom: 12px;
+      color: var(--text);
+    }
+    ul {
+      margin: 8px 0 14px 20px;
+      padding-left: 8px;
+    }
+    li {
+      margin-bottom: 6px;
+      color: var(--text);
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+    .contact {
+      font-weight: 600;
+      color: var(--text);
+    }
+    .steps {
+      background: #F7F8FA;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 20px 24px;
+      margin: 16px 0;
+    }
+    .steps ol {
+      margin: 0;
+      padding-left: 20px;
+    }
+    .steps li {
+      margin-bottom: 10px;
+    }
+    .steps li:last-child {
+      margin-bottom: 0;
+    }
+    .footer-note {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      font-size: 13px;
+      color: var(--text-faint);
+      text-align: center;
+    }
+    @media (max-width: 520px) {
+      body { padding: 12px 8px; }
+      .container { padding: 24px 18px 36px; }
+      .wordmark { font-size: 24px; letter-spacing: 4px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="wordmark">STEKO</div>
+      <div class="subtitle">Reset All Data</div>
+      <div class="last-updated">Last updated: August 8, 2026</div>
+    </div>
+
+    <h2>How to Reset All Data</h2>
+    <p>STEKO does not create user accounts. To clear the data stored in the app on your device, use the in-app reset feature. This is the primary and recommended method.</p>
+
+    <div class="steps">
+      <ol>
+        <li>Open the STEKO app on your device.</li>
+        <li>Tap the gear icon to open Settings.</li>
+        <li>Scroll to the Data section and tap "Reset All Data."</li>
+        <li>Confirm by tapping "Continue," then "Reset Forever" in the confirmation prompts.</li>
+      </ol>
+    </div>
+
+    <h2>Need Help?</h2>
+    <p>If you no longer have access to the app and need help with clearing your data, you can contact Go Steko LLC at <a href="mailto:cheyton@gosteko.com">cheyton@gosteko.com</a>. Go Steko LLC does not guarantee a response within any specific timeframe.</p>
+
+    <h2>What Gets Deleted</h2>
+    <p>When you reset all data through the App, the following is deleted from your device:</p>
+    <ul>
+      <li>User-created content, including summits, habits, checkpoints, progress logs, selected values, and settings.</li>
+      <li>Notification preferences and reminder settings.</li>
+      <li>The locally stored consent record indicating acceptance of the Privacy Policy and Terms of Service.</li>
+    </ul>
+
+    <h2>What May Persist</h2>
+    <p>Go Steko LLC does not guarantee complete, full, or immediate deletion of locally stored data. Some data may persist in browser caches, backups, or exported files beyond Go Steko LLC's direct control. The following may remain on your device after a reset and can be cleared separately:</p>
+    <ul>
+      <li>Cached App files stored by the service worker. These can be cleared by clearing your browser's site data or browsing data.</li>
+      <li>Any data export files you previously saved outside the App, such as JSON backup files stored in your downloads folder or cloud storage.</li>
+    </ul>
+
+    <h2>Contact</h2>
+    <p>For any questions about resetting data, contact Go Steko LLC:</p>
+    <p>Email: <span class="contact"><a href="mailto:cheyton@gosteko.com">cheyton@gosteko.com</a></span></p>
+
+    <div class="footer-note">Go Steko LLC &middot; Idaho, United States</div>
+  </div>
+</body>
+</html>
