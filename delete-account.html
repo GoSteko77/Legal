@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reset All Data — STEKO</title>
+<style>
+  :root { --bg:#0B0D11; --surface:#151821; --text:#E8EAF0; --muted:#8B92A5; --accent:#5B8DEF; --border:#232838; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.7; padding:0 20px 60px; }
+  .wrap { max-width:720px; margin:0 auto; }
+  header { text-align:center; padding:48px 0 32px; border-bottom:1px solid var(--border); margin-bottom:32px; }
+  h1 { font-size:1.8rem; font-weight:700; letter-spacing:-0.02em; }
+  h1 .brand { color:var(--accent); }
+  .updated { color:var(--muted); font-size:0.85rem; margin-top:8px; }
+  h2 { font-size:1.2rem; font-weight:600; margin-top:36px; margin-bottom:12px; color:var(--text); }
+  p { margin-bottom:14px; color:var(--text); font-size:0.95rem; }
+  ul { margin-bottom:14px; padding-left:20px; }
+  li { margin-bottom:6px; font-size:0.95rem; color:var(--text); }
+  a { color:var(--accent); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  .back { display:inline-block; margin-top:24px; color:var(--muted); font-size:0.9rem; }
+  .note { background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:16px 20px; margin:16px 0; font-size:0.9rem; color:var(--muted); }
+  .note-label { color:var(--accent); font-weight:600; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1><span class="brand">STEKO</span> — Reset All Data</h1>
+  <div class="updated">Last updated: August 11, 2026</div>
+</header>
+
+<h2>Overview</h2>
+<p>STEKO does not have user accounts. All data is stored locally on the user's device. The "Reset all data" function in Settings erases everything and returns the App to its initial state. Go Steko LLC does not guarantee absolute validity of the following statements as (besides this sentence) this page is written with AI.</p>
+
+<h2>How to Reset</h2>
+<ol style="padding-left:20px; margin-bottom:14px;">
+  <li style="margin-bottom:6px;">Open the App and tap the gear icon in the top-right corner of the dashboard.</li>
+  <li style="margin-bottom:6px;">Scroll to the <strong>Data</strong> section.</li>
+  <li style="margin-bottom:6px;">Tap <strong>"Reset all data"</strong>.</li>
+  <li style="margin-bottom:6px;">Confirm by tapping <strong>"Reset"</strong> in the dialog.</li>
+</ol>
+
+<h2>What Gets Deleted</h2>
+<p>The reset function deletes <strong>all</strong> locally stored data and preferences, with no exceptions:</p>
+<ul>
+  <li>All goals (summits) and their details</li>
+  <li>All habits (objectives) and completion history</li>
+  <li>All checkpoints</li>
+  <li>All progress logs and self-rating scores</li>
+  <li>All selected personal values</li>
+  <li>Theme mode (light/dark) — resets to default</li>
+  <li>Accent color — resets to default</li>
+  <li>Onboarding completion state</li>
+  <li>Privacy Policy and Terms of Service consent record</li>
+</ul>
+<p>No user data or preferences of any kind are retained after reset. The App returns to its original default state, as if it had never been used.</p>
+
+<div class="note">
+  <span class="note-label">Note:</span> Resetting the App does not delete any exported JSON backup files the user previously saved outside the App (for example, in the Downloads folder or cloud storage). Those files remain wherever the user saved them and can be imported again if desired. To delete those, the user must remove them manually from their storage location.
+</div>
+
+<div class="note">
+  <span class="note-label">Note:</span> The service worker cache (the App's static code files) may remain in the browser after reset. This does not contain any user data — only the App's HTML, JavaScript, and image files. To clear it, use the browser's "Clear site data" or "Clear browsing data" settings for the site gosteko77.github.io.
+</div>
+
+<h2>Contact</h2>
+<p>Questions about data reset may be sent to <a href="mailto:cheyton@gosteko.com">cheyton@gosteko.com</a>.</p>
+
+<a class="back" href="https://gosteko77.github.io/Legal/">&larr; Back to Legal</a>
+</div>
+</body>
+</html>

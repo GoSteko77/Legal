@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — STEKO</title>
+<style>
+  :root { --bg:#0B0D11; --surface:#151821; --text:#E8EAF0; --muted:#8B92A5; --accent:#5B8DEF; --border:#232838; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.7; padding:0 20px 60px; }
+  .wrap { max-width:720px; margin:0 auto; }
+  header { text-align:center; padding:48px 0 32px; border-bottom:1px solid var(--border); margin-bottom:32px; }
+  h1 { font-size:1.8rem; font-weight:700; letter-spacing:-0.02em; }
+  h1 .brand { color:var(--accent); }
+  .updated { color:var(--muted); font-size:0.85rem; margin-top:8px; }
+  h2 { font-size:1.2rem; font-weight:600; margin-top:36px; margin-bottom:12px; color:var(--text); }
+  p { margin-bottom:14px; color:var(--text); font-size:0.95rem; }
+  ul { margin-bottom:14px; padding-left:20px; }
+  li { margin-bottom:6px; font-size:0.95rem; color:var(--text); }
+  a { color:var(--accent); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  .back { display:inline-block; margin-top:24px; color:var(--muted); font-size:0.9rem; }
+  .note { background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:16px 20px; margin:16px 0; font-size:0.9rem; color:var(--muted); }
+  .note-label { color:var(--accent); font-weight:600; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1><span class="brand">STEKO</span> — Privacy Policy</h1>
+  <div class="updated">Last updated: August 10, 2026</div>
+</header>
+
+<h2>1. Overview</h2>
+<p>Go Steko LLC ("Go Steko") operates the STEKO app, a free, installable web application (Progressive Web App) deployed at <a href="https://gosteko77.github.io/STEKO/">https://gosteko77.github.io/STEKO/</a>. This Privacy Policy describes how Go Steko handles information in connection with the App. Much of this policy is written by AI with human adjustments and input. Therefore Go Steko LLC does not guarantee absolute validity of all statements in this policy.</p>
+
+<h2>2. No Account, No Sign-In</h2>
+<p>The App does not require and does not offer any account, login, registration, or sign-in mechanism. There are no user accounts, credentials, passwords, or authentication tokens. All data created in the App is stored locally on the user's device.</p>
+
+<h2>3. Information Go Steko Collects</h2>
+<p>Go Steko does not collect, receive, transmit, or store any personal data or user-created content from the App. The App does not send any data to any server controlled by Go Steko. There is no backend database, no cloud sync, and no server-side storage.</p>
+
+<h2>4. Information Stored Locally on the Device</h2>
+<p>The App stores the followimg data exclusively in the browser's local Storage on the user's device:</p>
+<ul>
+  <li><strong>Goals (Summits):</strong> Name, purpose, term, deadline, priority, status, and other details the user enters.</li>
+  <li><strong>Habits (Objectives):</strong> Title, associated summits, day-of-week schedule, and completion history.</li>
+  <li><strong>Checkpoints:</strong> Milestone descriptions tied to each summit.</li>
+  <li><strong>Progress logs:</strong> Daily self-rating scores (-5 to +5) per summit.</li>
+  <li><strong>Values:</strong> Personal values the user selects or adds.</li>
+  <li><strong>Settings:</strong> Theme mode (light/dark), accent color, onboarding completion state, and policy consent record.</li>
+</ul>
+<p>This data never leaves the device. Go Steko has no access to it.</p>
+
+<h2>5. Service Worker and Caching</h2>
+<p>To enable offline use, the App installs a service worker that caches the App's own HTML, JavaScript, and image files in the browser. This cached data consists only of the App's static code and assets — it contains no user-created content or personal data. The cache can be cleared through the browser's site-data settings.</p>
+
+<h2>6. Data Export and Import</h2>
+<p>The App provides a manual export feature that creates a JSON file containing all locally stored data (goals, habits, checkpoints, logs, values, and settings). The user may save this file anywhere they choose. Importing reads a previously exported JSON file back into the App. The export and import operations happen entirely within the browser — the file is never uploaded to any server.</p>
+
+<h2>7. Reset All Data</h2>
+<p>The App provides a "Reset all data" function in Settings. When used, it deletes all locally stored data and preferences, including:</p>
+<ul>
+  <li>All summits, habits, checkpoints, progress logs, and values</li>
+  <li>Theme mode and accent color.</li>
+  <li>Onboarding completion state and policy consent record</li>
+</ul>
+<p>After reset, the App returns to its initial state with default settings. No user data or preferences of any kind are retained. Exported JSON files saved outside the App (e.g., in Downloads or cloud storage) are not affected by the reset and remain wherever the user saved them.</p>
+
+<div class="note">
+  <span class="note-label">Note:</span> Resetting the App does not delete any exported JSON backup files the user previously saved outside the App (for example, in the Downloads folder or cloud storage). Those files remain wherever the user saved them and can be imported again if desired. To delete those, the user must remove them manually from their storage location.
+</div>
+
+<div class="note">
+  <span class="note-label">Note:</span> The service worker cache (the App's static code files) may remain in the browser after reset. This does not contain any user data — only the App's HTML, JavaScript, and image files. To clear it, use the browser's "Clear site data" or "Clear browsing data" settings for the site gosteko77.github.io.
+</div>
+
+<h2>8. Third-Party Services</h2>
+<p>The only third-party service involved in the App's operation is GitHub Pages, which hosts the App's static files. GitHub Pages is operated by GitHub, Inc. When a user visits the App URL, GitHub's servers deliver the static files to the browser. Go Steko does not control GitHub's logging or data practices. Users are encouraged to review GitHub's Privacy Policy at <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement">https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement</a>.</p>
+
+<h2>9. Children's Privacy</h2>
+<p>The App is not directed to children under 13 and does not knowingly collect any information from anyone, including children.</p>
+
+<h2>10. Data Security</h2>
+<p>All data is stored locally in the browser. No method of local storage is completely secure. To the maximum extent permitted by law Go Steko is not liable for data loss, corruption, or unauthorized access to data stored on the user's device, including access by others who share the device or who gain physical or remote access to it. Users may use the export feature to maintain backups of important data.</p>
+
+<h2>11. Changes to This Policy</h2>
+<p>Go Steko may update this Privacy Policy from time to time. Changes will be posted on this page with a new "Last updated" date.</p>
+
+<h2>12. Contact</h2>
+<p>Questions about this Privacy Policy may be sent to <a href="mailto:cheyton@gosteko.com">cheyton@gosteko.com</a>.</p>
+
+<a class="back" href="https://gosteko77.github.io/Legal/">&larr; Back to Legal</a>
+</div>
+</body>
+</html>
